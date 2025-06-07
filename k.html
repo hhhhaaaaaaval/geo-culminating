@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Solutions</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: floralwhite;
+        }
+
+        .vampiro-one-regular {
+            font-family: "Vampiro One", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url("C:\Users\parmannshm\Desktop\Geo Website\Design-Software-for-Civil-Engineering.jpg") no-repeat center center;
+            background-size: cover;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        .cta-button {
+            background: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .parts {
+            text-align: center;
+            background-color: #d2ffec;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            display: none;
+            padding: 15px;
+        }
+
+        blockquote {
+            background: #e9ecef;
+            padding: 15px;
+            border-left: 5px solid #003366;
+            margin: 20px 0;
+        }
+
+        blockquote p {
+            font-style: italic;
+        }
+
+        blockquote cite {
+            display: block;
+            text-align: right;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\parmannshm\Desktop\Geo Website\vector.jpg" style="height:100px; width:50px;">
+	<div class="vampiro-one-regular">
+        <div class="logo">Vector Solutions Co.</div>
+	</div>
+	<div class="vampiro-one-regular">
+        <nav>
+            <ul>
+                <li><a href="C:\Users\parmannshm\Desktop\Geo Website\geo thing.html">Home Page</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+	</div>
+    </header>
+    <h1 style="text-align: center; color:#8300ff">Details</h1>
+    <div style="text-align:center; color:rgb(106, 106, 106)">
+        <h4><b>Student Name:</b> Parmannsh Missan</h4><br>
+        <h5><b>Course Code:</b> CGC1W</h5><br>
+        <h5><b>Supervisor/Teacher:</b> Nathan Thomson</h5><br>
+        <h5><b>School:</b> Khalsa Community School</h5><br>
+        <h5><b>Due Date:</b> 25 May 2025</h5>
+    </div>
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 1:</h3>
+            <h4>-Location-</h4>
+            <div class="content">
+                <blockquote>
+            <br>
+                    <p><b>City: Whitehorse, Yukon</b></p><br>
+                    <p><b>Physiographic Region:</b> Western Cordillera</p><br>
+            <p><b>Short Run-down:</b></p>
+                    <p>Whitehorse, Yukon, Canada's capital and largest city, is a unique blend of natural beauty and fascinating history.</p>
+                    <p>Located on the Yukon River banks and nestled in breathtaking scenery, it is a doorway to unlimited outdoor adventures, including hiking, fishing, and wildlife viewing.</p><br>
+                    <p>It has a population of around 30,000 and still retains a "small town" feel while offering required amenities and services.</p>
+                    <p>The city experiences a subarctic climate with cold, long winters and warm, short summers.</p>
+                    <p>Deeply rooted in the Klondike Gold Rush history, Whitehorse boasts a vibrant culture that is both rich in First Nations heritage and multicultural diversity.</p><br>
+                    <p>Key attractions like the SS Klondike National Historic Site and Yukon Wildlife Preserve draw visitors every year, while the economy hums with government services, tourism, mining, and transportation.</p>
+                    <p>Overall, Whitehorse is an incredible destination that captures the essence of the North with its rugged charm and outdoor lifestyle.</p>
+                    <a href="https://www.youtube.com/watch?v=VX3YnPaXBHA"> A Short Video on Whitehorse, Yukon</a>
+            <br>
+            <a href="https://www.whitehorse.ca/wp-content/uploads/2022/06/Map-1_OCP.pdf">A Map of Whitehorse, Yukon</a>
+            <br><br><br>
+            <h4>A Picture of Yukon's Natural Beauty:</h4>
+                    <img src="C:\Users\parmannshm\Desktop\Geo Website\yukon.jpg" alt="Picture of Yukon">
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 2:</h3>
+            <h4>-Physical Geography-</h4>
+            <div class="content">
+                <blockquote>
+            <br>
+            <p><b>About the Area:</b></p>
+                    <p>The region of Whitehorse, Yukon is strong in presenting a picture of the climatic and geologic processes in carving the land.</p>
+            <p>All around are evident the excellent record of former glaciers.</p>
+            <p>The classic U-shaped valleys, the saw-toothed ridges of rock termed moraines, and the large number of lakes are all indisputable marks of the incredible shaping capacity of bygone ice sheets.</p><br>
+            <p>The mountains, which define the region, are tectonic in origin, that is, the strong forces of the </p><a href=https://en.wikipedia.org/wiki/Laramide_orogeny>Laramide Orogeny.</a><br>
+            <a href=https://www.thecanadianencyclopedia.ca/en/article/yukon-river>The Yukon River</a><p> remains an outstanding force in the land.</p>
+            <p>Its constant process of erosion and deposition creates terraces, arcuate courses of meanders, and fertile floodplains.</p>
+            <p>Whitehorse features a subarctic climate with enormous seasonal changes depending on its location.</p>
+            <p>They experience extremely cold winters, with mean temperatures close to -19°C, and relatively temperate summers with mean temperatures in the vicinity of 17°C.</p><br>
+            <p>They are supported by the region's high latitude (i.e., being well out of reach of the equator), its continental location (i.e., being a great distance from the sea's moderating influence), and the blocking effect of the surrounding mountains.</p>
+            <p>The mountains also create a rain shadow, which contributes to overall low levels of rainfall.</p>
+            <p>Cold Arctic air masses usually move into the region, heightening the chill of winter. All in all, it's the combination of this extensive glaciated past history, mountain-building, the river's ongoing action, and subarctic weather that has resulted in a land both beautiful and intimidating.</p>
+            <p>This interaction of factors heavily impacts the regional ecology and sustainable development of the natural resources of the region.</p>
+            <br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\mountains.jpg", alt="Picture of Yukon's Mountains", width="750px">
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 3:</h3>
+            <h4>-Population and Employment-</h4>
+            <div class="content">
+                <blockquote>
+            <br>
+            <p><b>Population Information:</b></p>
+            <p>Whitehorse, the Yukon's largest city and an estimated 30,000 to 35,000 population, is expanding primarily as a result of immigration from within Canada and overseas, drawn by jobs, quality of life, and the appeal of the natural environment, supplemented by natural increase.</p><br>
+            <p>Its population, skewed to the youthful end although aging, has a high level of educational attainment, supported by Yukon University and the demands of its service economy, with government, healthcare, education, and retail being large sectors, led in large part by a robust tourism industry and supplemented by resource-based activities like mining and forestry.</p><br>
+            <p>The city faces environmental challenges, primarily climate change-related, including thawing permafrost, increased wildfire risk, and altered precipitation levels, along with other sustainability concerns like waste management, energy, housing, and transportation.</p>
+            <p>To address them, Whitehorse has climate action strategies, promotes the use of renewable energy and energy efficiency, and is in the process of improving waste management, supporting local food systems, and fostering sustainable economic development, in collaboration with First Nations communities on environmental initiatives.</p>
+            <br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\people.jpg", alt="Picture of Yukon's people", width="600px">
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 4.1:</h3>
+            <h4>-Our Expansion Project-</h4>
+            <div class="content">
+                <blockquote>
+            <p><b>Our Project:</b></p>
+            <p>Whitehorse's planned growth is an integrated master plan to accommodate the territorially located explosively rising population and capitalize on its sheer economic potential.</p>
+            <p>The underlying assumption is founded upon an acute need for more housing to alleviate the current deficit induced by in-migration prompted by economic realities within the natural resource sector as well as by the appeal of the Yukon's high standard of living and the rise of home work.</p><br>
+            <p>This development considers Whitehorse's strategic geographical advantages, such as the possibility of it serving as a so-called "sleeper suburb" that caters to population overpopulation and housing costs in large cities and yet continues to act as a gateway region.</p>
+            <p>The plan also leverages the Yukon's huge natural resources base, encompassing its mining, forestry, and tourism sectors, to generate new jobs, attract educated labor, and trigger economic growth.</p><br><br>
+            <p>Development will happen through many aspects.</p><br>
+            <p>First of all, a broad range of residential areas is zoned, from single-family homes to townhouses, apartments, condos, and specialized housing for individuals with different needs and incomes.</p>
+            <p>Affordability will be a significant aspect, and policies like inclusionary zoning, government subsidies, density bonuses, and seeking new types of construction will be the key factors.</p><br>
+            <p>Green building practices, such as energy-efficient designs and the use of renewable energy, will be embraced as well.</p>
+            <p>Second, the expansion will encompass industrial areas and parks for light manufacturing, processing of resources, and logistics activities to augment economic diversification and job creation and green industrial output.</p>
+            <p>Third, commercial spaces like commercial complexes, office buildings, and mixed-use developments will foster entrepreneurship, improve the hospitality and tourism industries, and nurture technology and innovation sectors.</p><br>
+            <p>Finally, the expansion involves extensive infrastructure development, encompassing improvement of transportation networks, like roads and public transport improvement, improvement of utilities such as water, wastewater, and energy networks, and the provision of requisite social infrastructure, such as new schools, health centres, and emergency services.</p>
+            <p>By pursuing this multi-faceted approach, Whitehorse aims to develop a thriving, sustainable community that welcomes newcomers while preserving its unique character and offering a high quality of life for all residents.</p>
+            <br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\construction.jpg", alt="Picture of Construction", width="600px">
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 4.2:</h3>
+            <h4>-Our Estimated Budget-</h4>
+            <div class="content">
+                <blockquote>
+            <br>
+            <p>An estimated budget for Whitehorse expansion can be approximated but largely depends on a number of factors.</p>
+            <p>Housing and infrastructure expenses are key elements in any expansion plan.</p>
+            <p>Development of houses in a region that has high demand could be expensive, therefore, houses are a key element of massive expenses.</p>
+            <p>The cost per single-family unit can range up to $300,000 per house while condos could be approximated at around $200,000.</p>
+            <p>If we estimate some 200 single-family homes to be built, this would be a total investment of approximately $60 million.</p>
+            <p>This investment is not only required to house an increasing population but also to render houses safe and eco-friendly as per modern standards and to enhance community development.</p>
+            <p>Well-planned residential areas enhance the quality of life and may spur economic growth through increased property values and spending by new residents in the local economy.</p><br>
+            <p>Commercial and industrial development will occupy space to generate more employment and support an increasing demand for new enterprises.</p>
+            <p>The commercial and industrial component of the growth is budgeted on a rough estimate of approximately $25 million.</p>
+            <p>Commercial space can be charged at around $200 per square foot, hence, the construction of large retail and office space will draw companies that enable diversification and economic growth of the local economy.</p>
+            <p>This investment also highlights the demand for an active workforce and local economy, it offers more employment opportunities and enhances the ability of the community to attract investments, thus promoting a healthy economic environment.</p><br>
+            <p>Infrastructure construction such as utilities, roads, and public transport amounts to approximately $57 million.</p>
+            <p>Transport infrastructure typically amounts to about $4 million per kilometer to accommodate strong and well-organized roads with room for more traffic by residents and business.</p>
+            <p>The installation of improved utilities with the goal of having stable water, sewage, and electricity supply is also important in supporting new residential estates as well as business premises.</p>
+            <p>Investments in public transportation, even in expansions at the initial stages, have long-term returns since they reduce traffic, pollution, and enhance access across the city.</p>
+            <p>By offering effective infrastructure, the city can encourage connectivity between living areas and central commercial and social hubs.</p><br>
+            <p>School and health center construction can be significant expenses, and the cost of construction of these essential services is placed at approximately $30 million.</p>
+            <p>Education is essential to the development and growth of a community, and therefore the provision for new schools addresses an increasing number of families with quality education for kids.</p>
+            <p>Healthcare centers, with the estimated investment of about $15 million, ensure that residents have easy access to medical services required for their needs, which is essential for their health and well-being.</p>
+            <p>A lively community requires not just housing and employment but also the guarantee that its citizens are able to get quality education and health care.</p><br>
+            <p>Operational and staff salaries are another major cost, with an estimated total of $3.3 million.</p>
+            <p>This figure presumes 10 planning and administrative staff with each receiving an annual salary of $80,000.</p>
+            <p>Apart from that, the employment of a construction labor force at an average wage of $50,000 extensively illustrates the type of human capital investment that contributes to economic stability in the local area.</p>
+            <p>Skilled workers are required in order to execute projects effectively, and investing in permanent and temporary workforce also stimulates the local economy through increased consumer spending.</p><br>
+            <p>Finally, transport charges covering delivery and logistics expenses to the tune of about $50,000 will be incurred.</p>
+            <p>The figures take into account transportation of vital construction materials and equipment from other locations, which are vital in large-scale construction endeavors.</p>
+            <p>Safe and efficient modes of transport is vital to avoid delay and cost overrun by maintaining the project within time and budget frame while ensuring prompt delivery of material whenever needed.</p><br>
+            <p>Overall, the cost of Whitehorse expansion is estimated at approximately $215.4 million.</p>
+            <p>This investment is not only for the short-term financial requirements of development and construction but also for the long-term vision of building a sustainable, successful community.</p>
+            <p>Every line item on the budget is an investment in creating a good life for citizens, in granting access to vital services, and in supporting economic development that generations can follow.</p>
+            <p>These investments are key to positioning Whitehorse as an innovative and attractive community to work and reside in.</p>
+            <br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\stonks.jpg", alt="stonks", width="600px">
+                </blockquote>
+            </div>
+        </div>
+
+    <div class="parts" onclick="toggleContent(this)">
+        <h3>Part 4.3:</h3>
+        <h4>-Community Expansion-</h4>
+        <div class="content">
+            <blockquote>
+            <br>
+            <p>In planning the development of Whitehorse, sustainability is a basic principle woven into every step of development—residential, industrial, and commercial.</p>
+        <p>Prioritizing environmentally-friendly technologies and practices enables us to build a sustainable community that not only meets the needs of the current but also preserves resources for the future.</p>
+        <p>Here's how we plan to integrate sustainability into every aspect of the growth.</p>
+        <br><br>
+        <h3>Residential Areas</h3>
+        <br>
+        <p>The new residential developments shall be designed with energy efficiency and sustainability in mind.</p>
+        <p>We shall optimize the use of green building materials and incorporate advanced construction techniques, including passive solar design, energy-efficient insulation, and high-performance windows, to minimize energy consumption and the emissions of greenhouse gases.</p>
+        <p>We will also encourage the installation of renewable energy sources such as solar panels in residential buildings to allow residents to generate their own electricity.</p>
+        <p>Purposefully designed green spaces such as community gardens, parks, and tree-lined streets will maintain local biodiversity, provide recreational space for residents, and contribute to a general attractiveness of the neighborhoods.</p>
+        <p>In addition, we will implement water conservation measures, such as rainwater harvesting systems and drought-resistant landscape, to promote responsible water use.</p>
+        <br><br>
+        <h3>Industrial Buildings:</h3>
+        <br>
+        <p>Industrial sustainability will be led by the development of eco-friendly buildings that have the main aim of minimizing their environmental impact.</p>
+        <p>We will promote green building concepts, such as LEED (Leadership in Energy and Environmental Design), to ensure that new industrial buildings are resource-efficient throughout their lifespan.</p>
+        <p>Moreover, we will encourage industries to adopt green operations, such as waste reduction, recycling, and the use of renewable materials in their companies.</p>
+        <p>Forming partnerships with domestic businesses will make a circular economy model, in which waste products of one industry can be processed as raw material for another.</p>
+        <p>Also, industrial space infrastructure shall be equipped with electric vehicle charging facilities and encourage use of mass transport by the workers, hence reducing carbon emission caused by travelling.</p>
+        <br><br>
+        <h3>Business Spaces:</h3>
+        <br>
+        <p>Business spaces will be rendered environmentally friendly with special attention to environmental business practices.</p>
+        <p>There will be energy-efficient illumination, HVAC and water-saving facilities in new building structures.</p>
+        <p>We will promote the growth of green businesses, such as organic shops, environmentally friendly service companies, and locally sourced cafes.</p>
+        <p>Commercial areas will be planned with walkable designs to encourage walking and cycling as means of transportation apart from cars.</p>
+        <p>By integrating green areas in commercial areas, we can enhance the quality of air and create a pleasant environment for customers and employees.</p>
+        <p>In addition, we will address the development of community programs, such as farmer's markets and neighborhood art displays in commercial districts, which not only benefit local entrepreneurs but also foster a sense of community participation.</p>
+        <br><br>
+        <h3>Transportation and Infrastructure:</h3>
+        <br>
+        <p>Sustainability is also practiced in transportation and infrastructure development.</p>
+        <p>We will invest in mass transit systems to provide affordable and effective alternatives to car travel, thereby decreasing traffic and promoting lower emissions.</p>
+        <p>Pedestrian paths and cycling lanes will be included in the planning, allowing residents to move around easily and actively in the community.</p>
+        <p>Green roofs, permeable pavement, and efficient stormwater management practices will be adopted as green infrastructure systems to mitigate urban heat effects and runoff, and render the community climate change resilient.</p>
+        <br><br>
+        <h3>Summary:</h3>
+        <br>
+        <p>By incorporating sustainable practice into every aspect of the expansion plan, we can create a model community that unites economic growth with environmental stewardship.</p>
+        <p>This holistic approach to development not only enhances the quality of life for existing residents but also ensures that Whitehorse will remain a vibrant, livable community in the years to come.</p>
+        <p>Lastly, our commitment to sustainability is a foundation of this growth, a set of principles that shape how we build, live, and interact in our community.</p>
+        <br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\sivil enjineering.jpg", alt="Civil Engineering Picture", width="400px">
+            </blockquote>
+        </div>
+    </div>
+
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h3>Part 4.4:</h3>
+            <h4>-Yukon's Current Expansion Plan-</h4>
+            <div class="content">
+                <blockquote>
+            <br>
+            <h3>Links:</h3>
+            <br>
+            <a href="C:\Users\parmannshm\Desktop\Geo Website\emr-whitehorse-periphery-zoning-map.pdf">Map of Yukon's Current Expansion Plan</a><br>
+            <a href="https://www.whitehorse.ca/wp-content/uploads/2023/04/Whitehorse-2040-Official-Community-Plan.pdf">Detail Current Expansion Plan (129 pages)</a>
+            <br><br>
+            <h3>Quick Summary:</h3>
+            <br><br>
+            <h4>Bylaws:</h4>
+            <br>
+            <p>1. Definition:</p>
+    <p>- Bylaws are locally enforceable rules or regulations of municipal government. They are enacted to govern a particular area and have the force of law behind them.</p><br>
+
+    <p>2. Purpose:</p>
+    <p>- Bylaws are intended to address a variety of issues of local concern, including zoning, land use, building codes, health and safety, and standards of the community.</p><br>
+
+    <p>3. Process:</p>
+    <p>- The bylaw-making process typically involves research, public consultation, and approval by City Council. It may involve multiple readings and a public hearing before final adoption.</p><br>
+
+    <p>4. Enforcement:</p>
+    <p>- Bylaws are enforced by municipal officials. Non-compliance can result in fines or other penalties.</p><br>
+
+    <p>5. Examples in the Context of the Official Community Plan:</p>
+    <p>- The amendments mentioned (e.g., Bylaw 2024-22) are formal updates to existing bylaws within the community planning process. Adopted, amended, or repealed policies are commonly linked to a specific bylaw.
+    </p><br><br>
+            <h4>Policies:</h4>
+            <br>
+            <p>1. Definition:</p>
+    <p>- Policies are guiding statements or principles that establish how specific matters are to be handled by the municipal government. Policies, as opposed to bylaws, are not typically legally enforceable but more of a decision-making guide.</p><br>
+
+    <p>2. Purpose:</p>
+    <p>- Policies are intended to provide clarity and direction on a range of topics—road development, nature conservation, housing, and community services—helping to guide the actions of the City Council and city staff.</p><br>
+
+    <p>3. Development Process:</p>
+    <p>- Policies may be a result of research, public input, and needs assessment of the community. Policies may be added or changed more simply than bylaws because they typically do not have to follow the same formal legislative procedure.</p><br>
+
+    <p>4. Role in Planning:</p>
+    <p>- In an Official Community Plan (OCP), policies guide how the municipality will make future planning decisions. They provide a strategic direction to land use, development, and resource management.</p><br>
+
+    <p>5. Specific Examples from the OCP:</p>
+    <p>- New and amended policies like "Policy 15.6.5" or "Policy 7.15" would reflect the evolving objectives of the city on issues like housing density, green space management, or transportation. The precise content of each policy would need to be studied in the context of the OCP to determine its precise implications.
+    </p><br><br>
+            <h4>Integration of Policies and Bylaws in the OCP</h4>
+            <br>
+            <p>- The amendments listed (i.e., new, revised, and deleted policies) indicate whether the City Council is actively updating its planning strategy to meet changing conditions, such as population growth, environmental issues, or public comment.</p>
+    <p>- Policy Amendments such as renumbering certain policies can involve clarifying their intention more precisely or updating them to keep them in line with general community goals. For example, revisions to land use designations on Map 5 are a response to evolving development priorities or necessities, which is recorded by accompanying policy amendments.
+    <br><br><br>
+    <p>As you can clearly see, they currently do not have a plan for their ever-growing population, and that's why we're here.</p>
+    </p><br><br><br>
+            <img src="C:\Users\parmannshm\Desktop\Geo Website\Policies-Bylaws.jpg", alt="Policies and Bylaws Pictures">
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="parts" onclick="toggleContent(this)">
+            <h2>Research Proposal:</h2>
+            <div class="content">
+                <blockquote>
+            <p>I would like to focus my assignment on Whitehorse, Yukon's development.</p>
+            <p>This topic is of interest to me for two reasons.</p>
+            <p>First, Whitehorse presents a unique set of advantages and challenges associated with northern city development, namely its large amount of available land and lower costs compared to more urbanized areas.</p>
+            <p>This scenario not only facilitates the development of new infrastructures, like roads, bridges, and utilities, but also boosts the regional economy through the rising demand for civil engineering services as a result of the population explosion.</p>
+            <p>Secondly, the extreme climate with below-freezing temperatures and the occurrence of permafrost poses a special challenge that requires creative engineering design centered on sustainability and environmental considerations.</p>
+            <p>Economic plans for viable infrastructure development in this harsh climate will not only assist in colonizing and cultivating the northern regions of Canada responsibly but may provide valuable lessons transferable to other countries with the same geographical parameters, such as Russia.</p>
+            <p>Through disseminating this knowledge base, Canada can position itself as the global leader in offering engineering solutions in cold climates that not only serve domestically but as a mechanism for economic growth worldwide.</p>
+            <p>Examining Whitehorse's development will further enrich my understanding of Canada's evolution in the 20th century, more particularly how northern communities achieve balance between growth and preservation.</p>
+            <p>By examining these dynamics, I made a stronger understanding of regional imbalances and the diverse experiences that make up Canada's national identity as it expands.</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="parts" onclick="toggleContent(this)">
+        <h3>Part 5:</h3>
+        <h4>-Hand Drawn Map-</h4>
+        <div class="content">
+            <blockquote>
+		<br>
+		<img src="C:\Users\parmannshm\Desktop\Geo Website\2025_06_06 11_34 p.m. Office Lens.jpg" alt="Hand Drawn Map of Whitehorse, Yukon" width="600px">
+        <p>Here is a hand-drawn map of Whitehorse, Yukon, showing the main features of the city.</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="parts" onclick="toggleContent(this)">
+        <h3>Part 6:</h3>
+        <h4>-Sources-</h4>
+        <div class="content">
+            <blockquote>
+		<br>
+		<h3>Bibliography (Cited Sources, APA 7th Edition):</h3>
+		<p>Wikipedia contributors. (2025c, June 3). Whitehorse. Wikipedia. https://en.wikipedia.org/wiki/Whitehorse
+            City of Whitehorse. (2024, April 18). Home - City of Whitehorse. https://www.whitehorse.ca/
+            Whitehorse. (n.d.). The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/whitehorse#:~:text=Geography%20and%20Climate,-Communities%20like%20Whitehorse&text=The%20Whitehorse%20landscape%20is%20dominated,%2C%20with%20warm%2C%20dry%20summers.
+            The Editors of Encyclopaedia Britannica. (1998, July 20). Whitehorse | Yukon, Map, Population, & Facts. Encyclopedia Britannica. https://www.britannica.com/place/Whitehorse
+            Employment insurance economic region of Whitehorse - canada.ca. (2023, December 7). https://srv129.services.gc.ca/rbin/eng/whthrs.aspx
+            Yukon Energy reveals bold new vision and plans for a resilient energy future | Yukon Energy. (n.d.). https://yukonenergy.ca/about-us/news-events/yukon-energy-reveals-bold-new-vision-and-plans-for-a-resilient-energy-future
+            Whitehorse. (n.d.-b). The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/whitehorse
+            City of Whitehorse. (2025, May 4). Development - City of Whitehorse. https://www.whitehorse.ca/business-in-whitehorse/zoning/
+            </p>
+            </blockquote>
+        </div>
+    </div>
+    <script>
+        function toggleContent(element) {
+            const content = element.querySelector('.content');
+            if (content.style.display === "none" || content.style.display ==="" ) {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+    <footer style="position:sticky; font-family:Arial, Helvetica, sans-serif;">
+        <p>&copy; 2025 Vector Solutions Co. | <a href="C:\Users\parmannshm\Desktop\Geo Website\geo thing.html#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
